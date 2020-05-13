@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "705771095849",
+    "firebase_url": "https://farmerapp-5f87d.firebaseio.com",
+    "project_id": "farmerapp-5f87d",
+    "storage_bucket": "farmerapp-5f87d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:705771095849:android:2d29c65b4250a006269938",
+        "android_client_info": {
+          "package_name": "com.nakul.FarmingApp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "705771095849-040eqts0hhp9v0o84hf964qv1ur02qvo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nakul.FarmingApp",
+            "certificate_hash": "e3c94fff032b7cfaff21d6f87a69803686ad72fa"
+          }
+        },
+        {
+          "client_id": "705771095849-s2gimq5alptu60tt6m9ja98d225tfmsf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzKoijHgWhIIBsIza7j0pYQBK8opx3xt8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "705771095849-s2gimq5alptu60tt6m9ja98d225tfmsf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
