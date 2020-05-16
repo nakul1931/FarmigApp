@@ -1,5 +1,7 @@
 import 'package:FarmingApp/src/BLoC/authBloc.dart';
+import 'package:FarmingApp/src/styles/text.dart';
 import 'package:FarmingApp/src/widget/button.dart';
+import 'package:FarmingApp/src/widget/social_media_button.dart';
 import 'package:FarmingApp/src/widget/textFields.dart';
 import 'package:flutter/cupertino.dart';
 import "package:flutter/material.dart";
@@ -77,17 +79,34 @@ class Login extends StatelessWidget {
                       ? () {
                           print("Has Data");
                         }
-                      : () {},
+                      : () {
+                          print("No data");
+                        },
                 );
               }),
-          Padding(
-            padding: const EdgeInsets.all(8.0),
-            child: Center(
-              child: Text(
-                "Or",
-              ),
+          SizedBox(
+            height: 15.0,
+          ),
+          Center(
+            child: Text(
+              "Or",
+              style: TextStyles.suggestions,
             ),
           ),
+          SizedBox(
+            height: 15.0,
+          ),
+          Row(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: <Widget>[
+              SocialMediaButton(
+                buttonType: SocialType.Google,
+              ),
+              SocialMediaButton(
+                buttonType: SocialType.Facebook,
+              )
+            ],
+          )
         ],
       ),
     );
